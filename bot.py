@@ -1,7 +1,7 @@
 import discord
 import random
 from bot_logic import gen_pass,gen_emodji, flip_coin
-TOKEN='token' #security purposes
+TOKEN='token' #security
 # La variable intents almacena los privilegios del bot
 intents = discord.Intents.default()
 # Activar el privilegio de lectura de mensajes
