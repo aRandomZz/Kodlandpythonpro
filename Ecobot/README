@@ -1,0 +1,1 @@
+Este bot está pensado para aquellas personas que quieren tener un asistente en reciclaje y compostaje. Comienza esribiendo $help para obtener el comando necesario (que se desglosa en dos más). Para agregar consejos, solo modifique las variables estáticas COMPOSTING y RECYCLING.
