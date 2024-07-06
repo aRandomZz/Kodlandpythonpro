@@ -28,9 +28,12 @@ async def on_ready():
     print(f'Hemos iniciado sesión como {client.user}')
     await client.change_presence(activity=discord.Game(name='caring for the environment'))
 
+
 @client.event
 async def on_message(message):
-    if message.content.startswith('$tip'):
+    if message.content.startswith('$help'):
+        await message.channel.send("Type **$tip** to receive a tip about composting or recycling.")
+    elif message.content.startswith('$tip'):
         channel= message.channel
         await message.channel.send("Choose the area of your choosing: **composting** and **recycling**")
         def check_c(m):
